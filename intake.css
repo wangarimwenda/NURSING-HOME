@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6; 
+     text-align: center; 
+    padding: 20px;
+}
+
+/* Title Styling */
+h1 {
+    font-size: 2.5em;
+    color: #ff5c8d;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Horizontal Line Styling 
+hr {
+    margin-top: 20px;
+    border: 1px solid #ff5c8d;
+    width: 50%;
+    margin-bottom: 40px;
+} */
+
+/* Styling the Radio Buttons and Labels */
+/*input[type="radio"] {
+    display: none;
+}
+*/
+label {
+    font-size: 1.2em;
+    color: #666;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    background-color: #f1f1f1;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Hover Effect for Radio Labels */
+label:hover {
+    background-color: #ff5c8d;
+    color: white;
+}
+
+/* Active Radio Button Styling */
+input[type="radio"]:checked + label {
+    background-color: #ff5c8d;
+    color: white;
+    transform: scale(1.05); 
+} 
+
+/* Button Styling */
+button {
+    background-color: #ff5c8d;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e14c76;
+}
+
+/* Result Display Styling */
+#myresult {
+    margin-top: 30px;
+    font-size: 1.5em;
+    color: #ff5c8d;
+}
+
+/* Interactive Section Styling */
+#subresult {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #888;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    label {
+        font-size: 1em;
+    }
+
+    button {
+        padding: 12px 25px;
+        font-size: 1em;
+    }
+}

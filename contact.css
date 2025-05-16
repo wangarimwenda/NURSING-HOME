@@ -1,0 +1,43 @@
+
+
+
+#container {
+
+    text-align: center;
+    background-color: lch(79.38% 16.09 346.59);
+    font-size: 2rem;
+    font-weight: bold;
+
+ 
+ 
+}
+
+button{ 
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor:grab;
+}
+
+button:hover {
+  background-color: #b30098;
+}
+
+button:active {
+  cursor: grabbing;
+  background-color: #f504f5;
+}   
+
+input{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    width:150px
+}
+#diceimages img {
+  width: 80px;
+  margin: 5px;
+}

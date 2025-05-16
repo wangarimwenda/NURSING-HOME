@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the header */
+h1 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+h1:hover {
+    background-color: #45a049;
+}
+
+/* Paragraph and text styling */
+p {
+    padding: 20px;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.8;
+}
+
+/* Styling for the links */
+a {
+    text-decoration: none;
+    color: #4CAF50;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #2e7d32;
+    text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    font-size: 14px;
+}
+
+/* Styling for small links in footer */
+footer a {
+    color: #8d8d8d;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: white;
+}
+
+/* Add a hover effect to the small links */
+footer hr {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+/* Interactive button styles */
+footer a {
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ff9800;
+}

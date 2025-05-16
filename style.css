@@ -1,0 +1,218 @@
+/*#picture{
+    float: left;
+}
+
+*{
+    margin: 10;
+    padding: 10;
+    box-sizing:content-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: hsl(332, 82%, 43%);
+    color:white;
+}
+
+.navbar ul{
+
+    list-style-type: none;
+    display: flex;
+    
+    
+}
+
+.navbar ul li{
+    margin: 0 15px;
+}
+navbar ul li a{
+    text-decoration:double underline;
+    color: rgb(13, 13, 13);
+    font-weight: bold;
+}
+    */
+
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #f8f3f8;
+        color: #5a4b6a;
+        margin: 0;
+        padding: 0;
+    }
+    
+    h1 {
+        font-family: 'Dancing Script', cursive;
+        color: #d87e9f;
+        text-align: center;
+        font-size: 2.5em;
+        padding-top: 20px;
+    }
+    
+    /*hr {
+        border: 0;
+        border-top: 2px solid #f3c1d0;
+        width: 80%;
+        margin: 10px auto;
+    }
+    */
+    a {
+        text-decoration: none;
+        color: #d87e9f;
+        font-weight: bold;
+        transition: color 0.3s ease-in-out;
+    }
+    
+    a:hover {
+        
+        color: #ff70a6;
+    }
+    
+    /* Navbar styles */
+    .navbar {
+        background-color: #f3c1d0;
+        padding: 20px;
+        text-align: center;
+        border-bottom: 3px solid #e1a1b2;
+    }
+    
+    .navbar ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .navbar ul li {
+        margin: 0 15px;
+        font-size: 1.2em;
+    }
+    
+    .navbar ul li a {
+        color: #d87e9f;
+    }
+    
+    /* Hero section */
+    .hero {
+        background-color: #ffdde1;
+        padding: 50px;
+        text-align: center;
+        color: #fff;
+        font-size: 2em;
+        font-family: 'Dancing Script', cursive;
+        margin-top: 20px;
+        border-radius: 10px;
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Container styling */
+    .container {
+        padding: 40px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    /* Input and label styling */
+    input[type="date"], input[type="checkbox"], input[type="radio"] {
+        margin: 10px 0;
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid #d87e9f;
+        font-size: 1em;
+        transition: all 0.3s ease;
+    }
+    
+    input[type="date"]:focus, input[type="checkbox"]:checked, input[type="radio"]:checked {
+        border-color: #ff70a6;
+        background-color: #f3c1d0;
+                transition: background-color 0.3s ease;
+
+    }
+    
+    label {
+        font-size: 1.1em;
+        font-weight: bold;
+        margin: 10px 0;
+    }
+    
+    /* Button styling */
+    button {
+        background-color: #d87e9f;
+        color: #fff;
+        border: none;
+        padding: 15px 30px;
+        font-size: 1.1em;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        margin-top: 20px;
+    }
+    
+    button:hover {
+        background-color: #ff70a6;
+        transform: scale(1.05);
+        transition: all 0.3s ease;
+    }
+    #picture{
+position: right;
+        float: right;
+        margin: 20px;
+        padding: 20px;
+        background-color: #f3c1d0;
+        border-radius: 10px;
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+    }
+    /* Image styling */
+    #picture img {
+        border-radius: 10px;
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+    
+    #picture img:hover {
+        transform: scale(1.05);
+    }
+    
+    /* Footer styles */
+    footer {
+        background-color: #ff70a6;
+        padding: 20px;
+        color: #fff;
+        text-align: center;
+    }
+    
+    footer a {
+        color: #fff;
+    }
+    
+    footer a:hover {
+        color: #d87e9f;
+        text-decoration: underline;
+    }
+    
+    footer small {
+        display: block;
+        margin-top: 10px;
+    }
+    
+    /* Hover effects for interactivity */
+    input[type="checkbox"]:hover, input[type="radio"]:hover, button:hover {
+        background-color: #ff70a6;
+        transform: scale(1.05);
+        transition: all 0.3s ease;
+    }
+    
